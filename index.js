@@ -3,6 +3,7 @@ const express = require('express');
 const cheerio = require('cheerio');
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 app.get('/:artist/:track', async (req, res) => {
     try {
@@ -31,6 +32,6 @@ app.get('/:artist/:track', async (req, res) => {
     }
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('Working');
-})
+});
