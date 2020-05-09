@@ -1,0 +1,16 @@
+{
+  "name": "hyperscrape",
+  "version": "0.0.1",
+  "description": "A utility to scrape distrokid hyperfollow for track URLs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaditya Chakravarty",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1"
+  }
+}
